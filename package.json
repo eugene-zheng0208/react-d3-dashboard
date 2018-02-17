@@ -1,0 +1,54 @@
+{
+  "name": "react-d3-dashboard",
+  "version": "1.0.0",
+  "description": "react-d3-dashboard",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/jlorenc1986/react_d3_dashboard.git"
+  },
+  "author": "Lorenc Estrefi",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/jlorenc1986/trecker_test#readme",
+  "jest": {},
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "d3": "^4.2.7",
+    "datamaps": "^0.5.8",
+    "enzyme": "^2.4.1",
+    "eslint": "^3.7.1",
+    "eslint-plugin-react": "^6.4.1",
+    "react-addons-test-utils": "^15.3.2",
+    "react-test-renderer": "^15.3.2",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-hot-middleware": "^2.13.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "express": "^4.14.0",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^3.10.1",
+    "purecss-sass": "^0.6.0",
+    "react": "^15.3.2",
+    "react-d3": "^0.4.0",
+    "react-d3-basic": "^1.6.11",
+    "react-dom": "^15.3.2",
+    "react-faux-dom": "^3.0.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "sass-loader": "^4.0.2",
+    "sinon": "^1.17.6",
+    "socket.io": "^1.5.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
+}

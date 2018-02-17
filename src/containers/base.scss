@@ -1,0 +1,21 @@
+@import '../../node_modules/purecss-sass/vendor/assets/stylesheets/_purecss';
+
+$trecker-gray: #d3d3d3;
+$trecker-component-gray: #f1f1f1;
+#datamap-container{
+    svg {
+        height: 400px;
+    }
+}
+.app-container {
+    background-color: $trecker-gray;
+    padding: 10px;
+}
+.header {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $trecker-gray;
+}
+.component-container {
+    background-color: $trecker-component-gray;
+}
